@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Jumbotron from '../Jumbotron';
@@ -13,7 +13,7 @@ const Content = () => (
     <Main>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Audit}></Route>
+          <Route exact path="/" component={Audit} />
         </Switch>
       </BrowserRouter>
     </Main>
