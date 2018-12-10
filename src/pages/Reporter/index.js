@@ -6,7 +6,7 @@ const Report = () => {
     <div>
       <div className="container">
         <hr />
-        <h5>Dados Pessoais</h5>
+        <h5 className="titulo-1">Dados Pessoais</h5>
         <div className="col-md-6 formColunas">
           <p className="fontTitulo">
             Nome Civil <span className="fontConteudo">Pedro Souza</span>
@@ -56,8 +56,8 @@ const Report = () => {
             Status <span className="fontConteudo">XXX</span>
           </p>
         </div>
-        <h5>Relatório</h5>
-        <span className="fontConteudo">
+        <h5 className="titulo-2">Relatório</h5>
+        <p className="fontConteudo">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere
           metus lectus, ut scelerisque velit interdum eget. Phasellus ornare
           mauris elit, sit amet eleifend lorem pellentesque eget. Phasellus
@@ -73,7 +73,7 @@ const Report = () => {
           quis ullamcorper tortor. Mauris at eros aliquet, porttitor mauris non,
           suscipit lacus. Vestibulum pellentesque, lectus non suscipit finibus,
           urna metus suscipit tellus, a tristique est sapien ac nibh.
-        </span>
+        </p>
         <div className="formConteudo fontConteudo" />
         Relatório: nome, ra, polo, pendências encontradas na auditoria emails e
         telefones para contato com o aluno
