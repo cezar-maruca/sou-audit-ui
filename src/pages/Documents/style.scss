@@ -1,0 +1,124 @@
+.container-fluid {
+	.titulo-1 {
+		  padding-top: 40px;
+		  padding-bottom: 30px;
+		  font-weight: 700;
+		  clear: both;
+		  display: block;
+		  font-family: barlow;
+	}
+	
+	.formColunas {
+		float:left;
+		margin-left: -1%;
+		
+		.fontTitulo {
+			font-family: Barlow;
+			margin-bottom: 1px;
+			color: #607989;
+		
+			.fontConteudo{
+				font-family: Verdana;
+				color:#000;
+			}
+		}
+	}
+	
+	.titulo-2 {
+		padding-top: 50px;
+		padding-bottom: 30px;
+		font-weight: 700;
+		clear: both;
+		display: block;
+		font-family: barlow;
+	}
+	
+	.box {
+		width: 2%;
+		float: left;
+		height: 190px
+	}
+	
+	.linhaVertical {
+		border-left: 2px solid #dfe6e8;
+		box-sizing: border-box;
+	}
+	
+	.formConteudo {
+		padding-bottom: 30px;	
+	}
+	
+	.botoes {
+		margin-left: 77%;
+		margin-right: 1%;
+		
+	}
+	
+	.links {
+		color:#FFF !important;
+	}
+	
+	
+	.linhaForm {
+		clear:both;
+		display: block;
+		margin-bottom: 4%;
+	}
+		
+	.titulo-3 {
+		padding-top: 30px;
+		padding-bottom: 20px;
+		clear: both;
+		display: block;
+		font-family: barlow;
+		color: #607989;
+	}	
+	
+	.checarForm {
+		margin-left: 2%;
+		font-family: Verdana;
+	}
+	
+	.checarForm-1 {
+		margin-left: 15%;
+		margin-top: -2%;
+		font-family: Verdana;
+	}
+	
+	.checarForm-2 {
+		margin-left: 32%;
+		margin-top: -2%;
+		font-family: Verdana;
+	}
+		
+	.checarForm-3 {
+		margin-left: 66%;
+		margin-top: -2%;
+		font-family: Verdana;
+	}
+	
+	.linhasConteudo {
+		padding: 2%;
+	}
+	
+	.boxConteudo {
+		border: 1px solid #dfe6e8;
+		margin-left: 5%;
+		max-width: 28%;
+		padding: 2% 0 0  4%;
+	}	
+	
+	.boxLinhas {
+		padding: 12%;
+	}
+	
+	.boxInterno-1  {
+		border: 1px solid #dfe6e8;
+	}
+	
+	.botoesForm {
+		float:right;
+		margin-right: 5%;
+		margin-bottom: 7%;
+	}
+}
