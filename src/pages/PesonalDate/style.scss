@@ -1,0 +1,66 @@
+.container-fluid {
+	.titulo-1 {
+		  padding-top: 40px;
+		  padding-bottom: 30px;
+		  font-weight: 700;
+		  clear: both;
+		  display: block;
+		  font-family: barlow;
+	}
+	.borda {
+		border: 2px solid #dfe6e8;
+		padding: 1%;
+		margin-bottom: 1%;
+		
+		.fontTitulo {
+			font-family: Barlow;
+			margin-bottom: 1px;
+			color: #607989;
+		}
+			
+		.fontConteudo {
+			font-family: Verdana;
+			color:#000;
+		}
+	}
+	.borderColunas {
+		border: 2px solid #dfe6e8;
+		padding: 1%;
+		max-width: 32%;
+		margin-bottom: 1%;
+		margin-left: 1%;
+	}
+	
+	.fontTituloCont {
+		font-family: Barlow;
+		margin-bottom: 1px;
+		color: #607989;
+	}
+	
+	.fontConteudoDados {
+		font-family: Verdana;
+		color:#000;
+	}
+	
+	.borderColunas-1 {
+		border: 2px solid #dfe6e8;
+		padding: 1%;
+		max-width: 23.8%;
+		margin-bottom: 1%;
+		margin-left: 1%;
+	}
+	
+	.borderColunas-2 {
+		border: 2px solid #dfe6e8;
+		padding: 1%;
+		max-width: 48.7%;
+		margin-bottom: 1%;
+		margin-left: 1%;
+	}
+	
+	.botoesForm {
+		float:right;
+		margin-right: 5%;
+		margin-bottom: 7%;
+	}
+}
