@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.scss';  
+import './style.scss';
 import Menu from '../../components/Menu';
 import Button from '../../components/Button';
 import PersonalDate from '../../assets/imgs/editar.png';

@@ -1,70 +1,71 @@
 .container {
-  .titulo-1 {
-    padding-top: 40px;
-    padding-bottom: 30px;
-    font-weight: 700;
-    clear: both;
-    display: block;
-    font-family: barlow;
-  }
-
-  .formColunas {
-    float: left;
-    margin-left: -1%;
-
-    .fontTitulo {
-      font-family: Barlow;
-      margin-bottom: 1px;
-      color: #607989;
-
-      .fontConteudo {
-        font-family: Verdana;
-        color: #000;
-      }
-    }
-  }
-
-  .titulo-2 {
-    padding-top: 100px;
-    padding-bottom: 30px;
-    font-weight: 700;
-    clear: both;
-    display: block;
-    font-family: barlow;
-  }
-
-  .box {
-    width: 2%;
-    float: left;
-    height: 190px;
-  }
-
-  .linhaVertical {
-    border-left: 2px solid #dfe6e8;
-    box-sizing: border-box;
-  }
-
-  .formConteudo {
-    padding-bottom: 30px;
-  }
-
-  .botoes {
-    margin-left: 77%;
-    margin-right: 1%;
-  }
-
-  .borda {
-    border: 1px solid #dfe6e8;
-    padding: 2%;
-  }
-
-  .dadosForm {
-    float: left;
-    max-width: 49%;
-    margin-left: 1%;
-  }
-
-  .links {
-    color: #fff !important;
-  }
+	.titulo-1 {
+		  padding-top: 40px;
+		  padding-bottom: 30px;
+		  font-weight: 700;
+		  clear: both;
+		  display: block;
+		  font-family: barlow;
+	}
+	
+	.formColunas {
+		float:left;
+		margin-left: -1%;
+		
+		.fontTitulo {
+			font-family: Barlow;
+			margin-bottom: 1px;
+			color: #607989;
+		
+			.fontConteudo{
+				font-family: Verdana;
+				color:#000;
+			}
+		}
+	}
+	
+	.titulo-2 {
+		padding-top: 100px;
+		padding-bottom: 30px;
+		font-weight: 700;
+		clear: both;
+		display: block;
+		font-family: barlow;
+	}
+	
+	.box {
+		width: 2%;
+		float: left;
+		height: 190px
+	}
+	
+	.linhaVertical {
+		border-left: 2px solid #dfe6e8;
+		box-sizing: border-box;
+	}
+	
+	.formConteudo {
+		padding-bottom: 30px;	
+	}
+	
+	.botoes {
+		margin-left: 77%;
+		margin-right: 1%;
+	}
+	
+	.borda {
+		border: 1px solid #dfe6e8;
+		padding: 2%;
+	}	
+	
+	.dadosForm {
+			float:left;
+			max-width: 49%;
+			margin-left: 1%;
+	}
+	
+	.links {
+		color:#FFF !important;
+	}
+		
 }

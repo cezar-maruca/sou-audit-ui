@@ -149,7 +149,7 @@ const Documents = () => {
 };
 
 function itemSelect(elem) {
-	/*var si = $(elem).val();/*
+	var si = $(elem).val();
 	var isCheck = $(elem).is(':checked');
 
 		if(isCheck) {'
@@ -166,7 +166,7 @@ function itemSelect(elem) {
 
 	function fadeOut(itemClass, itemId) {
 		$(itemClass).fadeOut();
-		$(itemId).removeClass('borda');*/
+		$(itemId).removeClass('borda');
 	}
 
 
